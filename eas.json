@@ -3,8 +3,8 @@
        "appVersionSource": "remote"
      },
      "build": {
-     "node": "20.18.0",
        "development": {
+         "node": "20.18.0",
          "developmentClient": true,
          "distribution": "internal",
          "android": {
