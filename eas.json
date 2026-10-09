@@ -4,8 +4,6 @@
      },
      "build": {
      "node": "20.18.0",
-     "development": {
-       ...
        "development": {
          "developmentClient": true,
          "distribution": "internal",
