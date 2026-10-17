@@ -33,9 +33,7 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "App.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "App.tsx"
   ],
   "exclude": [
     "node_modules"

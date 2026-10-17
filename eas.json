@@ -1,29 +1,27 @@
-   {
-     "cli": {
-       "appVersionSource": "remote"
-     },
-     "build": {
-       "development": {
-         "node": "20.18.0",
-         "developmentClient": true,
-         "distribution": "internal",
-         "android": {
-           "buildType": "apk"
-         }
-       },
-       "preview": {
-         "distribution": "internal",
-         "android": {
-           "buildType": "apk"
-         }
-       },
-       "production": {
-         "android": {
-           "buildType": "app-bundle"
-         }
-       }
-     },
-     "submit": {
-       "production": {}
-     }
-   }
+{
+  "expo": {
+    "name": "Purview",
+    "slug": "Purview-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121315"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#121315"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
